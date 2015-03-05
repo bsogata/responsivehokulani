@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hokulani Elementary School</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+  <!--  Load site-specific customizations after bootstrap. -->
+<link rel="stylesheet" href="style.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+</head>
+<body>
+  <!-- Banner -->
+  <div id="banner"></div>
+
+  <!-- Responsive navbar -->
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <!--  Display three horizontal lines when navbar collapsed. -->
+          <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Welcome</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Students</a></li>
+          <li><a href="#">Parents</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Faculty & Staff</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="page-content">
+    <div class="row">
+      <div id="announcements" class="col-sm-4 well">
+        <h4 class="section-title">Announcements</h4>
+        <ul class="links">
+          <li><a href="https://lilinote.k12.hi.us/SCHOOLS/D1/Hokulani/HokulaniHome.nsf/2c5e41f84b643c0a852564bc004a12ae/6377c9b87eace7600a256ad500819366/$FILE/Hokulani%20Calendar.pdf">Hokulani Calendar</a></li>
+          <li><a href="https://lilinote.k12.hi.us/SCHOOLS/D1/Hokulani/HokulaniHome.nsf/dd5cab6801f1723585256474005327c8/1b9ffb90b3e588800a2576240032d353?OpenDocument">Contact Info</a></li>
+        </ul>
+      </div>
+      <div id="welcome" class="col-sm-4 hidden-sm hidden-xs well">
+        <h4 class="section-title">Hokulani Pride</h4>
+        <p>Some text and the excellence image</p>
+        <img id="frontpage" src="excellence.jpg">
+      </div>
+      <div id="supply-lists" class="col-sm-4 well">
+        <h4 class="section-title">Supply Lists</h4>
+        <ul class="links">
+          <li><a href="https://lilinote.k12.hi.us/SCHOOLS/D1/Hokulani/HokulaniHome.nsf/2c5e41f84b643c0a852564bc004a12ae/6377c9b87eace7600a256ad500819366/$FILE/Kindergarten%20Supply%20List.pdf">Kindergarten Supply List</a></li>
+          <li><a href="https://lilinote.k12.hi.us/SCHOOLS/D1/Hokulani/HokulaniHome.nsf/2c5e41f84b643c0a852564bc004a12ae/6377c9b87eace7600a256ad500819366/$FILE/School%20Supplies%20List.pdf">School Supplies List</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
